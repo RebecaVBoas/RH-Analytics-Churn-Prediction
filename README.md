@@ -15,7 +15,6 @@ Utilizei dados históricos de funcionários (IBM HR Analytics) e segui os seguin
 ## 📈 Principais Insights
 * **Salário é Rei:** A variável `MonthlyIncome` foi a mais importante para o modelo.
 * **Idade:** Jovens tendem a sair mais (falta de plano de carreira?).
-* **Horas Extras:** Funcionários com `OverTime` também mostraram maior tendência de saída.
 
 ## 🤖 Performance do Modelo
 | Modelo | Acurácia | Recall (Classe 1) |
@@ -23,7 +22,6 @@ Utilizei dados históricos de funcionários (IBM HR Analytics) e segui os seguin
 | Regressão Logística | 60% | 0.60 |
 | Random Forest | 85% | 0.45 |
 
-*Optei por priorizar o Recall para minimizar o risco de perder talentos despercebidos.*
 
 ## 🏁 Conclusão
 O projeto demonstrou que é possível antecipar a saída de funcionários analisando métricas básicas de RH. O próximo passo seria implementar esse modelo em um Dashboard para o time de RH monitorar mensalmente.
